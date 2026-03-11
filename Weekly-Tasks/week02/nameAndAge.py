@@ -7,4 +7,5 @@ name = input('Please enter your name: ')
 age = input ('Please enter your age: ')
 
 # Output a message with the user's name and age
-print(f'Hello {name}, your age is {age}.')
+# The \t is a tab character
+print(f'Hello {name},\t your age is {age}.')
