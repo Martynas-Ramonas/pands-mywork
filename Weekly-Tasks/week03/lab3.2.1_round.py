@@ -1,5 +1,6 @@
 # Weekly Task 3
-# Program that takes in a float and the output is rounded to the nearest whole number
+# Program that takes in a float and the output is rounded to the nearest even number.
+# This is called "bankers rounding" and it is used in financial calculations to avoid bias in rounding. 
 # 4.5 rounds to 4, 5.5 rounds to 6, so do not use it accuracy is essential
 # Author: Martynas Ramonas
 
