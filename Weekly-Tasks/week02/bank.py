@@ -12,5 +12,5 @@ amount2 = int(input('Please enter the second amount in cents: '))
 total = amount1 + amount2
 
 # Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
-# The total is divided by 100 to convert cents to euros, and formatted to 2 decimal places using :.2f
+# The total is divided by 100 to convert cents to euros, and formatted to 2 decimal places using :.2f (2 is the amout of decimal places)
 print(f'The total amount is €{total/100:.2f}')      
