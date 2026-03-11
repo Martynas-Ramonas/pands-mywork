@@ -3,9 +3,12 @@
 # Author: Martynas Ramonas
 
 # Get the user's name and age
-name = input('Please enter your name: ')
-age = input ('Please enter your age: ')
+#name = input('Please enter your name: ') # Commented out
+#age = input ('Please enter your age: ') # Commented out
 
 # Output a message with the user's name and age
 # The \t is a tab character
-print(f'Hello {name},\t your age is {age}.')
+#print(f'Hello {name},\t your age is {age}.') # Commented out
+
+#Outputs the result of 21 - 4
+print(21 - 4)
