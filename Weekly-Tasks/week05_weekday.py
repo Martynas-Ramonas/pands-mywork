@@ -3,7 +3,7 @@
 # Author: Martynas Ramonas
 
 # Import the datetime module to work with dates and times
-import datetime
+from datetime import datetime
 
 # Get today's date and time
 today = datetime.today()
