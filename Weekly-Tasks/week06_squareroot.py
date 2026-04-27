@@ -10,13 +10,15 @@ def square_root(number):
     # Start with initial guess for the square root.
     guess = number / 2
 
-    # Repeat the calculation a ficed number of times.
-    # Each loop improves hte guess by averaging it with the result of dividing the original number by the guess.
+    # Repeat the calculation a fixed number of times.
+    # Each loop improves the guess by averaging it with the result of dividing the original number by the guess.
     for i in range(20):
         guess = (guess + number / guess) / 2
 
     # Return the final guess as the approximation of the square root.
     return guess
+# End of the square_root function.
+
 
 # Get the user to enter a positive floating-point number.
 number = float(input('Enter a positive floating-point number: '))
@@ -29,7 +31,7 @@ while number <= 0:
 # Call our own square_root function and print the result.
 answer = square_root(number)
 
-# Print the approximation of the square root, hte actual square root using the built-in function, and the actual square root rounded to 1 decimal place.
+# Print the approximation of the square root, the actual square root using the built-in function, and the actual square root rounded to 1 decimal place.
 print(f'The square root of {number} is approximately {answer}, and the actual square root is {number ** 0.5}, rounded to 1 decimal place is {round(number ** 0.5, 1)}')
 
 
