@@ -3,6 +3,7 @@
 # Newton's method starts with a guess and improves it each time the loop runs.
 # For square roots, it takes the average of the guess and number / guess.
 # Repeating this makes the guess get closer to the real square root.
+# References: https://www.geeksforgeeks.org/dsa/square-root-of-a-number-without-using-sqrt-function/
 # Author: Martynas Ramonas
 
 # Square root function using Newton's method.
